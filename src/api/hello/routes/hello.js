@@ -1,9 +1,9 @@
 module.exports = {
-    routes: [
-      {
-        method: 'GET',
-        path: '/hello',
-        handler: 'hello.index',
-      },
-    ],
-  };
+  routes: [
+    {
+      method: 'GET',
+      path: '/hello',
+      handler: 'hello.index',
+    },
+  ],
+};

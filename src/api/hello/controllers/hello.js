@@ -1,6 +1,6 @@
 module.exports = {
-    async index(ctx) {
-      ctx.body = 'Hello World!';
-    },
-  };
+  async index(ctx) {
+    ctx.body = 'Hello World!';
+  },
+};
   
