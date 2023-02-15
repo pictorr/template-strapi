@@ -25,7 +25,7 @@ it("should login user and return jwt token", async () => {
       password: mockUserData.password,
     })
     .expect("Content-Type", /json/)
-    .expect(230)
+    .expect(200)
     .then((data) => {
       expect(data.body.jwt).toBeDefined();
     });
